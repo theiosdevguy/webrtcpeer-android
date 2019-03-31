@@ -341,10 +341,10 @@ public class NBMWebRTCPeer{
         }
 
         public void run() {
-            if (mediaResourceManager.getLocalMediaStream() == null) {
-                mediaResourceManager.createMediaConstraints();
-                startLocalMediaSync();
-            }
+//            if (mediaResourceManager.getLocalMediaStream() == null) {
+//                mediaResourceManager.createMediaConstraints();
+//                startLocalMediaSync();
+//            }
 
             NBMPeerConnection connection = peerConnectionResourceManager.getConnection(connectionId);
 
